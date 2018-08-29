@@ -5,7 +5,7 @@ app.set('view engine', 'pug');
 app.set('views', './views');
 
 app.get('/login', function(req, res) {
-	res.render('template');
+	res.render('first-template');
 });
 
 app.get('/auth/google', function(req, res) {
