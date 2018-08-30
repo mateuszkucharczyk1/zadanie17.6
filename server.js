@@ -9,7 +9,7 @@ app.get('/login', function(req, res) {
 });
 
 app.get('/auth/google', function(req, res) {
-	res.render('log-in-page', {
+	res.render('login', {
 		user: {
 		login: req.query.login,
 		password: req.query.password
